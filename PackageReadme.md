@@ -1,12 +1,5 @@
-# CultureAwareTesting
-CultureAwareTesting extensions for xUnit
-
-Based on https://github.com/xunit/xunit/tree/master/test/test.utility/CultureAwareTesting
-
-## NuGet
-[![NuGet Badge](https://buildstats.info/nuget/CultureAwareTesting.xUnit)](https://www.nuget.org/packages/CultureAwareTesting.xUnit)
-
-## Example
+# Usage
+### Annotate a xUnit test method with `CulturedFact` or `CulturedTheory`
 
 ``` c#
 public class UnitTests
