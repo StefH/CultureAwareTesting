@@ -1,12 +1,8 @@
-# CultureAwareTesting
-CultureAwareTesting extensions for xUnit
+using CultureAwareTesting.xUnit;
+using FluentAssertions;
 
-## NuGet
-[![NuGet Badge](https://buildstats.info/nuget/CultureAwareTesting.xUnit)](https://www.nuget.org/packages/CultureAwareTesting.xUnit)
+namespace TestProject;
 
-## Example
-
-``` c#
 public class UnitTests
 {
     [CulturedFact("en-US")]
@@ -60,4 +56,3 @@ public class UnitTests
         result.Should().Be(expected);
     }
 }
-```
