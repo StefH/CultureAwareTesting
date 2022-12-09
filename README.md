@@ -1,5 +1,5 @@
 # CultureAwareTesting
-CultureAwareTesting extensions for xUnit
+CultureAwareTesting extensions for [xUnit](https://github.com/xunit/xunit).
 
 ## Overview
 This project is based on [test.utility/CultureAwareTesting(]https://github.com/xunit/xunit/tree/master/test/test.utility/CultureAwareTesting) and supports 2 attributes which can be used to define the Culture for a specific test:
