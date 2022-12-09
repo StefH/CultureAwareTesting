@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Version>0.0.1-preview-02</Version>
+		<Version>0.0.1</Version>
 		<PackageIcon>logo-128-transparent.png</PackageIcon>
 		<Authors>Stef Heyenrath</Authors>
 		<PackageProjectUrl>https://github.com/stefh/CultureAwareTesting</PackageProjectUrl>

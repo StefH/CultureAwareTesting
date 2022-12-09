@@ -40,7 +40,7 @@ internal class CulturedXunitTheoryTestCase : XunitTheoryTestCase
     {
         base.Deserialize(data);
 
-        Initialize(data.GetValue<string>("Culture"));
+        Initialize(data.GetValue<string>(Constants.TraitKeyCulture));
     }
 
     protected override string GetUniqueID()
@@ -50,7 +50,7 @@ internal class CulturedXunitTheoryTestCase : XunitTheoryTestCase
     {
         Culture = culture;
 
-        Traits.Add("Culture", new List<string> { culture });
+        Traits.Add(Constants.TraitKeyCulture, new List<string> { culture });
 
         DisplayName += $"[{culture}]";
     }
@@ -67,6 +67,6 @@ internal class CulturedXunitTheoryTestCase : XunitTheoryTestCase
     {
         base.Serialize(data);
 
-        data.AddValue("Culture", Culture);
+        data.AddValue(Constants.TraitKeyCulture, Culture);
     }
 }

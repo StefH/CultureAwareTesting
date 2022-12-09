@@ -33,7 +33,7 @@ internal class CulturedXunitTestCase : XunitTestCase
     {
         _culture = culture;
 
-        Traits.Add("Culture", new List<string> { culture });
+        Traits.Add(Constants.TraitKeyCulture, new List<string> { culture });
 
         DisplayName += $"[{culture}]";
     }
@@ -45,14 +45,14 @@ internal class CulturedXunitTestCase : XunitTestCase
     {
         base.Deserialize(data);
 
-        Initialize(data.GetValue<string>("Culture"));
+        Initialize(data.GetValue<string>(Constants.TraitKeyCulture));
     }
 
     public override void Serialize(IXunitSerializationInfo data)
     {
         base.Serialize(data);
 
-        data.AddValue("Culture", _culture);
+        data.AddValue(Constants.TraitKeyCulture, _culture);
     }
 
     public override async Task<RunSummary> RunAsync(
