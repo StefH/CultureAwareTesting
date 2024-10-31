@@ -7,7 +7,7 @@ This project is based on [test.utility/CultureAwareTesting](https://github.com/x
 - `CulturedTheory` in addition to the normal `Theory`
 
 ## NuGet
-[![NuGet Badge](https://buildstats.info/nuget/CultureAwareTesting.xUnit)](https://www.nuget.org/packages/CultureAwareTesting.xUnit)
+[![NuGet Badge](https://img.shields.io/nuget/v/CultureAwareTesting.xUnit)](https://www.nuget.org/packages/CultureAwareTesting.xUnit)
 
 ## Example
 
