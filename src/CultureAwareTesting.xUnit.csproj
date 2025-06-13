@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Version>0.0.1</Version>
+		<Version>0.0.1.1</Version>
 		<PackageIcon>logo-128-transparent.png</PackageIcon>
 		<Authors>Stef Heyenrath</Authors>
 		<PackageProjectUrl>https://github.com/stefh/CultureAwareTesting</PackageProjectUrl>
@@ -18,7 +18,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="logo-128-transparent.png" Pack="true" PackagePath="" />
+		<None Include="../resources/logo-128-transparent.png" Pack="true" PackagePath="" />
 		<None Include="../PackageReadme.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 
